@@ -1,0 +1,12 @@
+name: UserStyle Loader
+version: "0.1"
+action:
+  default_popup: popup.html
+content_scripts:
+  - matches: "<all_urls>"
+    js:
+      - Content.js
+default_locale:
+  - en
+permissions:
+  - activeTab
