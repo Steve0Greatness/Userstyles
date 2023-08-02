@@ -1,0 +1,3 @@
+- Add `manifest.json` for web addon/extension.
+- Add the ability to store CSS Files. Possibly using chrome's built in storage function, and the name-scheme: `file-<random-digits>`, then appending the name to all matching hostname's array--stored under `url-<base64-base-url>`, and checking the `@match` option(s) on visit to said website.
+- When visiting a `.user.css` file, ask the user if they'd like to install it.
