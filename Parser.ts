@@ -16,7 +16,7 @@ function checkUrlValidity(urlCheck: string, currentHref: string): boolean {
 }
 
 function ParseCSSForUserStyleDetails(CSS: string): string[][] {
-    let options = []
+    let options = [];
     CSS.split(/\=\=\/?UserStyle\=\=/g)[1].split(/\r?\n/g).forEach(val => {
         if (val == "")
             return;
